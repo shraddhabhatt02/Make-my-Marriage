@@ -41,6 +41,13 @@ The PRD permission matrix permits Admin deletion of payment records, while the d
 - Do not add integrations, dependencies, feature modules, or product behavior just because they are common. Explain material tradeoffs when a dependency or architecture decision is needed.
 - Run the relevant lint, type-check, build, or tests when requested or when needed to verify a code change; report what was and was not run.
 
+## Project progress tracking
+
+- Maintain `docs/PROJECT_STATUS.md` as the concise, current record of major project milestones and feature progress.
+- Whenever a major feature or foundation milestone is completed, update the status file in the same change. Record what was delivered, its current status, and relevant verification; do not mark work complete unless it is implemented.
+- Keep the status file factual and consistent with the product documents and repository. Do not use it to silently change requirements or imply approval of future work.
+- Before beginning a new major feature, check the status file for context; update it when that feature is completed or its status materially changes.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 ## This is NOT the Next.js you know
