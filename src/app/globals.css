@@ -134,6 +134,11 @@ body {
     @apply bg-background text-foreground;
   }
   html {
-    @apply font-sans;
+    scroll-behavior: smooth;
+    font-family: var(--font-jakarta), Arial, sans-serif;
   }
+}
+
+.font-display {
+  font-family: var(--font-playfair), Georgia, serif;
 }

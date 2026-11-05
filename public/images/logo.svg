@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e1a4"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9a7114"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="56" fill="#6b1d2f" stroke="url(#gold)" stroke-width="2.5"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="url(#gold)" stroke-width="0.8" stroke-dasharray="2,2"/>
+  
+  <!-- Ornamental crown / kalash motif -->
+  <path d="M60 18 C63 23, 66 25, 60 28 C54 25, 57 23, 60 18 Z" fill="url(#gold)"/>
+  <circle cx="60" cy="15" r="1.5" fill="url(#gold)"/>
+  
+  <!-- Make My Marriage Monogram 'MMM' or stylized interlocking M's / royal infinity knot -->
+  <g fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Center elegant stylized M -->
+    <path d="M42 70 L42 42 L60 58 L78 42 L78 70" />
+    <!-- Delicate inner flourish accentuating unity/marriage -->
+    <path d="M48 68 C54 60, 66 60, 72 68" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Small floral star / dot -->
+  <circle cx="60" cy="46" r="2" fill="url(#gold)"/>
+  <circle cx="60" cy="78" r="1.5" fill="url(#gold)"/>
+  <path d="M60 98 C62 94, 65 92, 60 89 C55 92, 58 94, 60 98 Z" fill="url(#gold)"/>
+  
+  <!-- Subtle text around or underneath if needed, clean symbol -->
+</svg>
